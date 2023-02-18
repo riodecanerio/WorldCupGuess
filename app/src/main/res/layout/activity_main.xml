@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/worldcup"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/imageChamp"
+        android:layout_width="99dp"
+        android:layout_height="52dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="135dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageYari4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/star" />
+
+    <ImageView
+        android:id="@+id/imageFinal2"
+        android:layout_width="99dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginBottom="39dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageYari4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/star" />
+
+    <ImageView
+        android:id="@+id/imageYari4"
+        android:layout_width="99dp"
+        android:layout_height="52dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="35dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageFas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/star" />
+
+    <ImageView
+        android:id="@+id/imageYari3"
+        android:layout_width="99dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginBottom="33dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageIng"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/star" />
+
+    <ImageView
+        android:id="@+id/imageFinal"
+        android:layout_width="99dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="124dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageArjantin"
+        app:srcCompat="@drawable/star" />
+
+    <ImageView
+        android:id="@+id/imageYari2"
+        android:layout_width="99dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="212dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageArjantin"
+        app:srcCompat="@drawable/star" />
+
+    <ImageView
+        android:id="@+id/imageHollanda"
+        android:layout_width="105dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="9dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/nl" />
+
+    <ImageView
+        android:id="@+id/imageArjantin"
+        android:layout_width="105dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageHollanda"
+        app:srcCompat="@drawable/ar" />
+
+    <ImageView
+        android:id="@+id/imageYari"
+        android:layout_width="99dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="33dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageArjantin"
+        app:srcCompat="@drawable/star" />
+
+    <ImageView
+        android:id="@+id/imageHirvat"
+        android:layout_width="95dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/hr" />
+
+    <ImageView
+        android:id="@+id/imageBrezilya"
+        android:layout_width="105dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageHirvat"
+        app:srcCompat="@drawable/br" />
+
+    <ImageView
+        android:id="@+id/imageIng"
+        android:layout_width="95dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageFransa"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/eng" />
+
+    <ImageView
+        android:id="@+id/imageFransa"
+        android:layout_width="101dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/fr" />
+
+    <ImageView
+        android:id="@+id/imageFas"
+        android:layout_width="92dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="26dp"
+        app:layout_constraintBottom_toTopOf="@+id/imagePortekiz"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ma" />
+
+    <ImageView
+        android:id="@+id/imagePortekiz"
+        android:layout_width="99dp"
+        android:layout_height="53dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="9dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/pt" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
